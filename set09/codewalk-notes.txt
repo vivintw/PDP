@@ -1,0 +1,49 @@
+TA-1 Name: - Amit
+TA-2 Name: - Nisarg
+
+Student CCIS ID: vivintw
+
+Problem Set #: set09
+Question Codewalked: - q2.rkt
+
+Q1 Design Grade: - 
+Q1 Presentation Grade: -
+
+Q2 Design Grade: - AB
+Q2 Presentation Grade: - A
+
+================
+
+Examples and Tests:
+
+================
+
+Data Design:
+-- Calculating power ranks multiple times for each competitor
+-- calculating the parameters while sorting is not a good idea
+
+================
+
+Contract/Purpose Statement/Design Strategy:
+
+================
+
+Presentation:
+-- Explain outranks method. (Explained)
+-- Explain powerRanking method. (Explained)
+
+================
+
+Interfaces, Objects, and Classes
+-- field interpretation missing or inadequate
+
+================
+
+Other:
+-- Use private as access modifiers wherever appropriate
+
+================
+
+
+
+

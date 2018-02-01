@@ -1,0 +1,36 @@
+TA-1 Name: - Viranchi
+TA-2 Name: - Charmik
+
+Student CCIS ID: vivintw
+
+Problem Set #: set06
+Question Codewalked: - q1
+
+Design Grade: - A
+Presentation Grade: - A
+
+================
+
+Contract/Purpose Statement/Design Strategy:
+
+---  single-spot error in contract and examples.
+
+
+
+Problem Set #: set06
+Question Codewalked: - q2
+
+Design Grade: - A
+Presentation Grade: - A
+
+================
+
+Contract/Purpose Statement/Design Strategy:
+
+--- ball-after-tick error in contracts and purpose statements.
+
+--- draw world could have been broken down
+
+
+
+

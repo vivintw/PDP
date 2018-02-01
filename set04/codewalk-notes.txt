@@ -1,0 +1,48 @@
+TA-1 Name: - Viranchi
+TA-2 Name: - Charmik
+
+Student CCIS ID: vivintw
+
+Problem Set #: set04
+Question Codewalked: - q2
+
+Design Grade: - A
+Presentation Grade: - A
+
+
+================
+
+Examples and Tests:
+
+--- has 100% test coverage except for functions that call big-bang.
+
+================
+
+Data Design:
+
+================
+
+Contract/Purpose Statement/Design Strategy:
+
+--- ball-after-tick: Should be balls-after-tick.
+
+--- Suggestion: racket-collides-with-wall: Could have been broken down using a more general function.
+
+================
+
+Presentation:
+
+--- Good. Understands implementation well.
+================
+
+Other:
+
+--- Use constants instead of magic values.
+
+--- Good design.
+
+================
+
+
+
+

@@ -1,0 +1,104 @@
+;; The first three lines of this file were inserted by DrRacket. They record metadata
+;; about the language level of this file in a form that our tools can easily process.
+#reader(lib "htdp-intermediate-reader.ss" "lang")((modname q2) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))
+(require racket/string)
+(require rackunit)
+(require "extras.rkt")
+
+
+
+;; Color is one of the following :
+;; -- "red"
+;; -- "green"
+;; -- "blank"
+;; INTERP : self evident
+
+;; OBSERVER TEMPLATE :
+(define (color-fn s)
+  (cond[string=? s "red" ...]
+       [string=? s "green" ...]
+       [string=? s "blank" ...]))
+
+
+
+
+;; ChineseTrafficSignal is defined as a struct (color, time)
+;; with the following fields :
+;; color : Color : defines the color of the traffic signal
+;; timer  : PosInt : defines a time in seconds during which the color
+;;         doesnot change.
+;; init-timer : PosInt : define the initial value to which timer was set to
+;;         in seconds.
+;; blink-state : PosInt : keeps count of the green blank blinks.
+
+;; IMPLEMENTATION :
+(define-struct chinese-traffic-signal (color timer init-timer blink-state))
+
+;; CONSTRUCTOR TEMPLATE:
+;; (make-chinese-traffic-signal Color PosInt)
+
+;; OBSERVER TEMPLATE:
+(define (chinese-traffic-signal-fn c)
+  (... (chinese-traffic-signal-color c)
+  (chinese-traffic-signal-timer c)
+  (chinese-traffic-signal-init-timer c)
+  (chinese-traffic-signal-blink-state c)))
+ 
+
+;; initial-state : PosInt -> ChineseTrafficSignal
+;; GIVEN: an integer n greater than 3
+;; RETURNS: a representation of a Chinese traffic signal
+;;     at the beginning of its red state, which will last
+;;     for n seconds
+;; EXAMPLE:
+;;     (is-red? (initial-state 4))  =>  true
+;; DESIGN STRATEGY : use the observer template.
+
+(define (initial-state num)
+  (make-chinese-traffic-signal "red" num num 3))
+
+
+
+;; next-state : ChineseTrafficSignal -> ChineseTrafficSignal
+;; GIVEN: a representation of a traffic signal in some state
+;; RETURNS: the state that traffic signal should have one
+;;     second later
+;; EXAMPLE :
+;;
+;; DESIGN STRATEGY : use the observer template.
+(define (timer-decrement c)
+  (make-chinese-traffic-signal (chinese-traffic-signal-color c)
+                               (- (chinese-traffic-signal-timer c) 1)
+                               (chinese-traffic-signal-init-timer c)
+                               (chinese-traffic-signal-blink-state c)))
+
+(define (timer-reset-green c)
+  (make-chinese-traffic-signal "green"
+                               (- (chinese-traffic-signal-init-timer c) 3)
+                               (chinese-traffic-signal-init-timer c)
+                               (chinese-traffic-signal-blink-state c)))
+
+(define (blink-color color)
+  (cond[(string=? color "green") "blank"]
+       [else "green"]))
+
+
+(define (timer-reset-blank-green c)
+  (make-chinese-traffic-signal (blink-color (chinese-traffic-signal-color c))
+                               2
+                               (chinese-traffic-signal-init-timer c)
+                               (- (chinese-traffic-signal-blink-state c) 1)))
+
+
+(define (next-color c)
+  (cond[(string=? (chinese-traffic-signal-color c ) "red")
+        (timer-reset-green c) ]
+       [(string=? (chinese-traffic-signal-color c ) "green")
+        ((timer-reset-blank-green c))]))
+
+(define (next-state c)
+  (cond[(= (chinese-traffic-signal-timer c) 1) (next-color c)]
+       [else (timer-decrement c)]))
+
+
+

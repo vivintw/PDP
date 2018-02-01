@@ -1,0 +1,41 @@
+TA-1 Name: - vikas91
+TA-2 Name: - shahnisarg
+
+Student CCIS ID: vivintw
+
+Problem Set #: set05
+Question Codewalked: - q2
+
+Design Grade: - AB
+Presentation Grade: - A
+
+================
+
+Data Design:
+
+-- missing/incomplete constructor template for Call.  
+
+-- missing/incorrect observer templates for Call and Block. 
+
+================
+
+Contract/Purpose Statement/Design Strategy:
+
+-- poor choice of function/constant names(check-call) function names need to be noun.  
+
+================
+
+Presentation:
+
+-- need to face audience while answering or talking insteading of showing the back
+
+================
+
+Other:
+
+
+================
+
+
+
+

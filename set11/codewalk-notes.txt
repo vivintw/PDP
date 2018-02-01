@@ -1,0 +1,46 @@
+TA-1 Name: - Vinay
+TA-2 Name: - Nisarg
+
+Student CCIS ID: vivintw
+
+Problem Set #: set11
+Question Codewalked: - q1, q2
+
+Q1 Design Grade: - A
+Q1 Presentation Grade: - A
+
+Q2 Design Grade: - A
+Q2 Presentation Grade: - A
+
+================
+
+Examples and Tests:
+
+================
+
+Data Design:
+
+================
+
+Contract/Purpose Statement/Design Strategy:
+-- Test cases should have documentation that makes it more readable
+
+================
+
+Presentation:
+-- What do you mean by Optional type?
+-- What is the second parameter passed to StreamSupport.stream() and why?
+-- What is the difference between foldr and reduce?
+-- What are the characteristics of the lambda function you pass to reduce method?
+
+================
+
+Interfaces, Objects, and Classes
+
+================
+
+Other:
+-- Should have checked if the player is already present in the with method
+-- Should have modularized TestWithStream.java
+
+================

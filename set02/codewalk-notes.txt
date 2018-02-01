@@ -1,0 +1,16 @@
+TA-1 Name: - Preethi
+TA-2 Name: - Aashish Vikram
+
+Student CCIS ID: vivintw
+
+Problem Set #: set02
+Question Codewalked: - Q2
+
+Design Grade: - AB
+Presentation Grade: - A
+
+Missing arguments in struct definition (Data Representation)
+Wrong constructor template
+contracts missing ':'
+dont use magic numbers, define them as constants
+test cases missing error messages

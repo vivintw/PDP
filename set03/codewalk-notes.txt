@@ -1,0 +1,51 @@
+TA-1 Name: - Sushant
+TA-2 Name: - Charmik
+
+Student CCIS ID: vivintw
+
+Problem Set #: set03
+Question Codewalked: - q2
+
+Design Grade: - A
+Presentation Grade: -A
+
+================
+
+Examples and Tests:
+
+--- have 100% test coverage except for functions that call big-bang.
+
+================
+
+Data Design:
+
+--- speed in World: Intrpretation should mention unit (seconds per tick)
+
+================
+
+Contract/Purpose Statement/Design Strategy:
+
+--- Some functions did multiple tasks. Should break down long functions into helpers. Functions were still readable in this case.
+
+================
+
+Presentation:
+
+--- Understands implementation well.
+
+--- Able to answer most questions without a need for followup questions.
+
+--- Fluent, audible
+
+================
+
+Other:
+
+--- Use constants instead of magic values.
+
+
+================
+
+
+
+

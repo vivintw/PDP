@@ -1,0 +1,23 @@
+TA-1 Name: - Aditya
+TA-2 Name: - Sushant
+
+Student CCIS ID: vivintw
+
+Problem Set #: set10
+Question Codewalked: - 1,2
+
+Q1 Design Grade: - A
+Q1 Presentation Grade: - A
+
+Q2 Design Grade: - A
+Q2 Presentation Grade: - A
+
+
+1. toString() should not be in factory class.
+2. equals method should check for whether it's instance of Roster or not.
+
+================
+
+
+
+

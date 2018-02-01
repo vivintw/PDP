@@ -1,0 +1,37 @@
+TA-1 Name: - Aditya
+TA-2 Name: - Amit
+
+Student CCIS ID: vivintw
+
+Problem Set #: set07
+Question Codewalked: - 2
+
+Design Grade: - B
+Presentation Grade: - B
+
+================
+
+Examples and Tests:
+
+-- 
+
+================
+
+Data Design:
+
+-- The very purpose of this problem set was using invariant. Student hasn't used any.
+
+================
+
+Contract/Purpose Statement/Design Strategy:
+
+-- all-var-replace-list should be using map.
+-- instead of maintaining invariant, values are maintained in call stack.
+
+================
+
+Presentation:
+
+-- When asked what is invariant in the code, student was unable to explain decision.
+
+================

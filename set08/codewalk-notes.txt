@@ -1,0 +1,63 @@
+TA-1 Name: - Aditya
+TA-2 Name: - Charmik 
+
+Student CCIS ID: vivintw
+
+Problem Set #: set08
+Question Codewalked: - Q1
+
+Q1 Design Grade: - A
+Q1 Presentation Grade: - A
+
+Q2 Design Grade: - 
+Q2 Presentation Grade: -
+
+INSTRUCTIONS TO TAs: Delete items that do not apply.  For items that apply,
+indicate which data definitions/functions have the indicated problem.
+
+================
+
+Examples and Tests:
+
+--- 100 %.
+
+================
+
+Data Design:
+
+--- Good.
+
+================
+
+Contract/Purpose Statement/Design Strategy:
+
+--- Good design.
+
+--- empty? check in defeated? is not required since ormap would handle that case.
+
+--- defeat-outcome-list : Should mention in invariant that oclst is not empty.
+    tie-outcome-list : Same
+
+--- all-defeated halting measure not accurate : Could point out in presentation and give correct value.
+                                                Should have captured more info about what is clst in 'Given' statement.
+
+
+================
+
+Presentation:
+
+--- Understands implementation well
+
+--- Understands material well.
+
+
+================
+
+Other:
+
+
+================
+
+
+
+
